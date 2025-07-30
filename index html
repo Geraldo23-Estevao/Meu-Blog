@@ -2,37 +2,38 @@
 <html lang="pt">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sobre - Meu Blogue</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog do Geraldo E. Calianguila</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>🍃 Sobre o Blogue</h1>
+    <h1>Blog do Geraldo E. Calianguila</h1>
+    <p>Bem-vindo ao meu espaço de pensamentos, ideias e reflexões!</p>
     <nav>
-      <a href="index.html">🏠 Início</a>
-      <a href="sobre.html" class="active">ℹ️ Sobre</a>
-      <a href="contacto.html">📞 Contacto</a>
+      <ul class="menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
     </nav>
   </header>
 
   <main>
-    <section class="conteudo">
-      <h2>Bem-vindo!</h2>
-      <p>Este blogue foi criado com o objetivo de compartilhar conteúdos educativos e criativos com o público de forma simples e acessível.</p>
-
-      <h3>✨ O que vais encontrar por aqui:</h3>
-      <ul>
-        <li>Projetos práticos com HTML, CSS e JavaScript</li>
-        <li>Jogos educativos, como jogo da memória</li>
-        <li>Dicas de programação</li>
-      </ul>
+    <section class="galeria">
+      <h2>Galeria</h2>
+      <div class="imagens">
+        <img src="https://via.placeholder.com/300x200" alt="Imagem 1">
+        <img src="https://via.placeholder.com/300x200" alt="Imagem 2">
+        <img src="https://via.placeholder.com/300x200" alt="Imagem 3">
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Geraldo Estêvão. Todos os direitos reservados.</p>
+    <p>&copy; 2025 Geraldo E. Calianguila - Todos os direitos reservados.</p>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
